@@ -73,8 +73,8 @@ for i in range(0, params.N):
             pass
         bs.placement = "any"
         pass    
-    node.addService(rspec.Execute(shell="bash", command="/local/repository/setup_outside.sh"))
-    #node.addService(rspec.Execute(shell="bash", command="/local/repository/setup_inside.sh"))
+    node.addService(pg.Execute(shell="bash", command="/local/repository/setup_outside.sh"))
+    #node.addService(pg.Execute(shell="bash", command="/local/repository/setup_inside.sh"))
     nodes.append(node)
     pass
 
