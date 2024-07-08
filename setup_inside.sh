@@ -29,3 +29,6 @@ python ../../megatron-lm/tools/preprocess_data.py \
   --append-eod \
   --workers 8
 mv meg-gpt2* ./data
+
+pip install net-tools
+netstat -anop | grep tcp
