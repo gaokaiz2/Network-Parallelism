@@ -30,5 +30,6 @@ python ../../megatron-lm/tools/preprocess_data.py \
   --workers 8
 mv meg-gpt2* ./data
 
-pip install net-tools
+apt update
+apt install net-tools
 netstat -anop | grep tcp
