@@ -39,4 +39,4 @@ echo 'ZzhiOGszaW0ydDM4dDYzY3I2bWZudHMzNTI6YjVjN2E1ZDYtMmRlNy00ZTYwLWFlOTYtZDJjMT
 sudo docker pull nvcr.io/nvidia/pytorch:24.05-py3
 mkdir /data/workspace
 
-#sudo docker run --gpus all -it --rm -v /data/workspace:/data/workspace nvcr.io/nvidia/pytorch:24.05-py3
+sudo docker run --gpus all -it --rm -v /data/workspace:/data/workspace nvcr.io/nvidia/pytorch:24.05-py3
